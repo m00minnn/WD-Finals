@@ -1,33 +1,33 @@
-<a name="readme-top">
+<a name="readme-top"></a>
 
-<br/>
+<br />
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
-  </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <a href="https://app.daily.dev/m00minnn"><img src="https://api.daily.dev/devcards/v2/QptJBv22hmBg4UqhM2h3K.png?type=default&r=jz3" width="356" alt="Ryan's Dev Card"/></a>
+  <h3 align="center">Personal Website v.2</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  A website consisting of five seperate webpages serving as a portfolio and also as final project for Web Design with Client Side Scripting Lab.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=m00min/WD-Finals)
 
 ---
 
+## Deployment
+
+View the live project here: [Personal Website v.2 Deployment Link](https://m00minnn.github.io/WD-Finals/)
+
+View the wakatime integration here: [Wakatime](https://wakatime.com/@1e323d0b-6dc3-4e06-b617-51340e36f303/projects/bcmcmbhuay?start=2024-07-08&end=2024-07-14)
+
+---
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -43,7 +43,7 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -55,66 +55,88 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+This website is created as the final project for my web design course. This multi-page website showcases my skills, experience, and qualifications through various features, including a landing page, an about me section, a moodboard, a project showcase, and a contact page. Each section is designed with modern aesthetics and functionality, using pure HTML and CSS.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Guiding Questions:
+- What is the project? - `A personal multi-page website demonstrating different feature layouts.`
+- What's the purpose? - `To showcase HTML and CSS skills through a personal website featuring various sections.`
+- What are key components? - `Landing page, about me page, moodboard, project showcase, and contact page.`
+- What technology is used and how? - `HTML for structure, CSS for styling and layout design, and for interactivity and animations.`
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Multi-Page Website
+- Landing Page with Navigation
+- At least 5 distinct Pages
+- Responsive Design
+- CSS Animations
+- JavaScript Functionality
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
 4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
+   - Camel case is a naming format where there is no white space in separation of each word, the first word is in all lower case while the succeeding words' first letter is upper case followed by lower cased letters.
    - ex.: buttonAnimatedStyle.css
 5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
+6. Renaming of Pages folder names is a must, and should relate to what it is doing or data it is holding.
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Finals
 └─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+| └─ css
+| | └─ style.css
+| └─ img
+| | └─ fileWith.jpeg/.jpg/.webp/.png
+| └─ js
+| └─ script.js
 └─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+| └─ about-me
+| | └─ assets
+| | └─ css
+| | | └─ style.css
+| | └─ img
+| | | └─ fileWith.jpeg/.jpg/.webp/.png
+| | └─ js
+| | └─ script.js
+| └─ contact-me
+| | └─ assets
+| | └─ css
+| | | └─ style.css
+| | └─ img
+| | | └─ fileWith.jpeg/.jpg/.webp/.png
+| | └─ js
+| | └─ script.js
+| └─ moodboard
+| | └─ assets
+| | └─ css
+| | | └─ style.css
+| | └─ img
+| | | └─ fileWith.jpeg/.jpg/.webp/.png
+| | └─ js
+| | └─ script.js
+| └─ my-projects
+| | └─ assets
+| | └─ css
+| | | └─ style.css
+| | └─ img
+| | | └─ fileWith.jpeg/.jpg/.webp/.png
+| | └─ js
+| | └─ script.js
 └─ index.html
-└─ readme.md
+└─ README.md
 ```
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Font Awesome | Icons | [Font Awesome](https://fontawesome.com/) |
+| Google Fonts | Custom Fonts | [Google Fonts](https://fonts.google.com/) |
+| Bootstrap | CSS Framework | [Bootstrap](https://getbootstrap.com/) |
+

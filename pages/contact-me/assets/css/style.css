@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: 'Chivo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(18, 18, 18, 0.8);
+    z-index: 1000;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links a {
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: grey;
+    transition: 0.3s;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    height: 100vh;
+    background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.8)), url('../img/background.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.contact-section .background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.contact-section .content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.contact-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact-section .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact-section .btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 150px;
+    height: 50px;
+}
+
+.contact-section .btn-social img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-section .btn-social.instagram {
+    color: #E1306C;
+}
+
+.contact-section .btn-social.instagram:hover {
+    background: #E1306C;
+    color: white;
+}
+
+.contact-section .btn-social.facebook {
+    color: #3b5998;
+}
+
+.contact-section .btn-social.facebook:hover {
+    background: #3b5998;
+    color: white;
+}
+
+.contact-section .btn-social.twitter {
+    color: #1DA1F2;
+}
+
+.contact-section .btn-social.twitter:hover {
+    background: #1DA1F2;
+    color: white;
+}
+
+.contact-section .btn-social.linkedin {
+    color: #0077B5;
+}
+
+.contact-section .btn-social.linkedin:hover {
+    background: #0077B5;
+    color: white;
+}
+
+.contact-section .btn-social.github {
+    color: #818080;
+}
+
+.contact-section .btn-social.github:hover {
+    background: #333;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contact-section h1 {
+        font-size: 2rem;
+    }
+
+    .contact-section p {
+        font-size: 1rem;
+    }
+
+    .contact-section .social-icons {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+}
